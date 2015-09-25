@@ -16,3 +16,5 @@ Open a terminal window and navigate to where you want the project to reside
 `$ npm start`
 
 navigate to [localhost:3000](http://localhost:3000) in your browser
+
+[demo](http://acando-react-boilerplate.herokuapp.com/)
