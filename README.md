@@ -7,10 +7,10 @@ The project is intended for internal use in Acando Norge and use, distribution o
 
 navigate to where you want the project to reside
 
-*$ git clone git@github.com:ibjohansen/acando-react-boilerplate.git*
+`$ git clone git@github.com:ibjohansen/acando-react-boilerplate.git`
 
-*$ npm install*
+`$ npm install`
 
-*$ npm start*
+`$ npm start`
 
 navigate to [localhost:3000](http://localhost:3000) in your browser
