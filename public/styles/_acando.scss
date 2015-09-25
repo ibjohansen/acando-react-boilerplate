@@ -1,0 +1,1502 @@
+@font-face {
+  font-family: 'Conv_Brownfox - Geometria Thin';
+  src: url('http://acando.no/ressurs/acando/fonts/Brownfox - Geometria ExtraLight.eot');
+  src: local('â˜º'), url('http://acando.no/ressurs/acando/fonts/Brownfox - Geometria ExtraLight.woff') format('woff'), url('http://acando.no/ressurs/acando/fonts/Brownfox - Geometria ExtraLight.ttf') format('truetype'), url('http://acando.no/ressurs/acando/fonts/Brownfox - Geometria ExtraLight.svg') format('svg');
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'Conv_Brownfox - Geometria Medium';
+  src: url('http://acando.no/ressurs/acando/fonts/Brownfox - Geometria Medium.eot');
+  src: local('â˜º'), url('http://acando.no/ressurs/acando/fonts/Brownfox - Geometria Medium.woff') format('woff'), url('http://acando.no/ressurs/acando/fonts/Brownfox - Geometria Medium.ttf') format('truetype'), url('http://acando.no/ressurs/acando/fonts/Brownfox - Geometria Medium.svg') format('svg');
+  font-weight: 400;
+  font-style: normal
+}
+
+.form-inline .form-control {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle
+}
+
+.form-inline .form-group label {
+  margin-right: 10px
+}
+
+body {
+  background-color: #f5f1ee
+}
+
+blockquote footer cite p, h3, h3 p, h4, h4 p, h5, h5 a, h5 p, h6 {
+  font: 400 22px/1.36 'Conv_Brownfox - Geometria Medium', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif
+}
+
+.lead, .lead a, .lead p, .lead p a, blockquote p, h1, h2, pre {
+  font: 400 22px/1.36 'Conv_Brownfox - Geometria Thin', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif
+}
+
+a, b, body, body textarea, i, li, p, span, time, u {
+  font: 400 16px/1.36 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif
+}
+
+hr {
+  background-color: #EBE4DC;
+  height: 1px;
+  width: 100%;
+  border: none
+}
+
+.uu-invisible {
+  margin: 0 !important;
+  padding: 0;
+  background: 0 0;
+  visibility: hidden !important;
+  height: 0;
+  position: absolute;
+  color: transparent
+}
+
+p {
+  color: #3c3c3c;
+  margin: 0 0 10.5px
+}
+
+.lead, .lead a, .lead p {
+  font-size: 1.3em
+}
+
+b, b p, p b, p strong, strong, strong p {
+  font-size: 1.1em;
+  font-weight: 800
+}
+
+a, p a {
+  color: #385988;
+  text-decoration: none
+}
+
+a:hover {
+  color: #FF6C2F;
+  text-decoration: none
+}
+
+.lead a, .leap p a {
+  color: #385988
+}
+
+.lead a:hover, .leap p a:hover {
+  color: #FF6C2F
+}
+
+h1 {
+  color: #385988;
+  font-size: 5em;
+  font-weight: 800
+}
+
+h2 {
+  color: #6c6c6c;
+  font-size: 3em;
+  text-transform: uppercase
+}
+
+h3 {
+  color: #FF6C2F;
+  font-size: 2em;
+  text-transform: none
+}
+
+h4, h4 p {
+  color: #6c6c6c;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  padding: 7px 0
+}
+
+h5, h5 a {
+  color: #385988;
+  font-size: 1.5em;
+  font-style: italic
+}
+
+h6 {
+  color: #FF6C2F
+}
+
+pre {
+  margin: 20px 0;
+  padding: 10px 10px 10px 20px;
+  border: none;
+  border-left: 5px solid #FF6C2F;
+  font-style: italic;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  background: #FFF
+}
+
+::-webkit-input-placeholder {
+  color: #385988;
+  font-family: 'Conv_Brownfox - Geometria Medium', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-weight: 100
+}
+
+:-moz-placeholder, :-ms-input-placeholder, ::-moz-placeholder, ::-ms-input-placeholder {
+  color: #385988;
+  opacity: 1;
+  font-family: 'Conv_Brownfox - Geometria Medium', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-weight: 100
+}
+
+.table > thead > tr > th {
+  border-bottom: 1px solid #EBE4DC
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+  vertical-align: middle
+}
+
+.table .menu-icon {
+  margin-right: 10px
+}
+
+.acando-logo {
+  height: 50px
+}
+
+#TopNav li a, #navbar-collapse-main .navbar-nav li a, #navbar-collapse-main li a {
+  font-family: 'Conv_Brownfox - Geometria Medium', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  color: #385988;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 100
+}
+
+#TopNav li a:hover, #navbar-collapse-main .navbar-nav li a:hover, #navbar-collapse-main li a:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #FF6C2F
+}
+
+#TopNav li a {
+  font-size: .9em
+}
+
+#TopNav {
+  background-color: #f5f1ee;
+  border-bottom: 1px solid #EBE4DC
+}
+
+#TopNav .navbar-right {
+  margin-top: 5px
+}
+
+.search-form {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 20px
+}
+
+.search-input {
+  display: inline-block;
+  background: 0 0;
+  height: auto;
+  vertical-align: middle;
+  border: none;
+  color: #385988;
+  width: 40px
+}
+
+.search-form button {
+  border: 0;
+  background: 0 0
+}
+
+.ie8 .search-input, .ie9 .search-input {
+  display: none
+}
+
+.menu-icon {
+  display: inline-block;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  border: none
+}
+
+.caret-down-footer {
+  width: 100% !important;
+  height: auto !important;
+  display: block
+}
+
+.caret-down {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -3px;
+  margin-left: 3px
+}
+
+.caret-down-orange-small {
+  width: 10px;
+  height: 9px;
+  background-image: url(http://acando.no/ressurs/acando/images/caret_down_orange_10x9.png);
+  background-position: center;
+  background-repeat: no-repeat !important
+}
+
+.menu-caret-right-orange-small {
+  background-image: url(http://acando.no/ressurs/acando/images/caret_right_orange_9x10.png);
+  background-position: 97% center;
+  background-repeat: no-repeat
+}
+
+.menu-caret-down-beige-small {
+  background-image: url(http://acando.no/ressurs/acando/images/caret_down_beige_10x9.png);
+  background-position: 97% center;
+  background-repeat: no-repeat
+}
+
+.menu-caret-right-blue-small {
+  background-image: url(http://acando.no/ressurs/acando/images/caret_right_blue_9x10.png);
+  background-position: 97% center;
+  background-repeat: no-repeat
+}
+
+.icon-globus {
+  background-image: url(http://acando.no/ressurs/acando/images/icon-globus.png)
+}
+
+.icon-contact {
+  background-image: url(http://acando.no/ressurs/acando/images/icon-contact.png)
+}
+
+.icon-calendar {
+  background-image: url(http://acando.no/ressurs/acando/images/icon-calendar.png)
+}
+
+.icon-search {
+  background-image: url(http://acando.no/ressurs/acando/images/icon-search.png)
+}
+
+.icon-user {
+  background-image: url(http://acando.no/ressurs/acando/images/icon-user.png)
+}
+
+#navbar-collapse-main {
+  text-align: center;
+  background: #f5f1ee;
+  margin-top: 80px;
+  margin-bottom: 0;
+  padding: 15px 0;
+  border-bottom: 1px solid #EBE4DC
+}
+
+#navbar-collapse-main .navbar-nav {
+  float: none;
+  text-align: center
+}
+
+#navbar-collapse-main .navbar-nav li {
+  float: none;
+  display: inline-block
+}
+
+#navbar-collapse-main .navbar-nav li a {
+  color: #385988;
+  text-transform: uppercase
+}
+
+.navbar-toggle .icon-bar {
+  background: #EBE4DC
+}
+
+.navbar-toggle {
+  margin-left: 3%;
+  cursor: pointer;
+  border: 1px solid #EBE4DC;
+  background-color: #fbf7f5;
+  -webkit-transition: background-color 500ms linear;
+  -moz-transition: background-color 500ms linear;
+  -o-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+  transition: background-color 500ms linear
+}
+
+.navbar-toggle:hover {
+  background-color: #EBE4DC
+}
+
+.navbar-toggle:hover .icon-bar {
+  background-color: #fbf7f5
+}
+
+.content-container {
+  background-color: #fbf7f5;
+  padding-bottom: 100px
+}
+
+.acando-section {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #f5f1ee;
+  border-bottom: 1px solid #EBE4DC
+}
+
+.acando-section h2 {
+  margin-bottom: 40px
+}
+
+.section-subinfo {
+  text-align: left;
+  margin-top: -30px;
+  display: block;
+  border-top: 1px solid #EBE4DC;
+  border-bottom: 1px solid #EBE4DC;
+  padding: 5px 10px;
+  margin-bottom: 50px;
+  position: relative
+}
+
+.section-subinfo .item-dato, .section-subinfo .item-user {
+  display: inline-block;
+  padding-right: 10px;
+  color: #6c6c6c
+}
+
+.section-subinfo .item-user a {
+  color: #6c6c6c
+}
+
+.section-subinfo .quicklinks {
+  text-align: right;
+  position: absolute;
+  right: 10px;
+  top: 12px
+}
+
+.section-subinfo .quicklinks a {
+  padding-left: 7px
+}
+
+#addLink {
+  margin-bottom: 15px
+}
+
+#mainslide {
+  cursor: pointer;
+  cursor: hand
+}
+
+.slide-parallax, .slide-static {
+  background-image: url(http://acando.no/ressurs/acando/images/mainslide.jpg);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  display: table;
+  margin: 0;
+  height: 400px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom: 1px solid #EBE4DC
+}
+
+.ie8 .slide-parallax {
+  background-position: center top !important;
+  background-size: auto !important
+}
+
+.slide-parallax h1, .slide-parallax h3 {
+  text-transform: uppercase;
+  margin-top: 5px
+}
+
+.slide-parallax.slide-article {
+  border-top: 1px solid #EBE4DC;
+  margin: 50px 0
+}
+
+.slide-parallax:hover h1, .slide-parallax:hover p, .slide-static:hover h1, .slide-static:hover p {
+  color: #FF6C2F
+}
+
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle
+}
+
+.text-vcenter h1 {
+  margin: 0;
+  padding: 0
+}
+
+.text-vcenter a {
+  font-size: 1.5em
+}
+
+#sitat {
+  padding: 60px 0;
+  background-color: #fbf7f5;
+  border-bottom: 1px solid #EBE4DC
+}
+
+#sitat .menu-right {
+  margin-top: 25px
+}
+
+#sitat blockquote {
+  padding: 0;
+  border: 0;
+  margin: 0
+}
+
+#sitat blockquote p {
+  color: #385988;
+  font-size: 2.1em;
+  font-weight: 100;
+  border: none;
+  word-break: normal;
+  word-wrap: normal;
+  background-color: transparent;
+  margin-bottom: 0;
+  font-style: normal;
+  padding-right: 30px
+}
+
+#sitat blockquote footer cite p {
+  color: #FF6C2F;
+  font-style: italic;
+  font-weight: 100;
+  margin-top: 50px !important
+}
+
+.menu-right {
+  list-style: none;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0
+}
+
+.menu-right li a {
+  cursor: pointer !important;
+  z-index: 999 !important;
+  display: block;
+  padding: 10px 35px 10px 10px;
+  border-bottom: 1px solid #EBE4DC;
+  font-size: 1.2em;
+  color: #3c3c3c
+}
+
+.menu-right li:last-child a {
+  border-bottom: none
+}
+
+.menu-right li a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #EBE4DC
+}
+
+.undermenu-right, .undermenu-right ul {
+  list-style: none;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
+  padding: 0;
+  margin: 0
+}
+
+.undermenu-right {
+  margin-bottom: 50px
+}
+
+.undermenu-right li a {
+  cursor: pointer;
+  display: block;
+  padding: 10px 15px;
+  border-bottom: 1px solid #EBE4DC;
+  font-size: 1.2em;
+  color: #FF6C2F;
+  font-family: 'Conv_Brownfox - Geometria Medium', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif
+}
+
+.undermenu-right li a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #3c3c3c
+}
+
+.undermenu-right ul li ul li a {
+  font-size: 1em;
+  color: #385988
+}
+
+.undermenu-right li ul li ul li a.activenode {
+  color: #3c3c3c;
+  border-bottom: 1px solid #EBE4DC;
+  font-weight: 800
+}
+
+.undermenu-right li ul li ul li a:hover {
+  color: #3c3c3c
+}
+
+.undermenu-right ul li ul li ul li a {
+  font-size: .8em;
+  padding-left: 25px;
+  color: #3c3c3c
+}
+
+.undermenu-right ul li ul li ul li a.activenode, .undermenu-right ul li ul li ul li a:hover {
+  color: #FF6C2F
+}
+
+.undermenu-right li ul {
+  display: none !important
+}
+
+.undermenu-right li.activeli ul {
+  display: block !important
+}
+
+.undermenu-right li ul li ul, .undermenu-right li.activeli ul li ul {
+  display: none !important
+}
+
+.undermenu-right li.activeli ul li.activeli ul {
+  display: block !important
+}
+
+.undermenu-right li.activeli ul li.activeli ul li ul {
+  display: none !important
+}
+
+.undermenu-right li.activeli ul li.activeli ul li.activeli ul {
+  display: block !important
+}
+
+a.menulevel_1, a.menulevel_2 {
+  display: none !important
+}
+
+a.menulevel_2.activenode {
+  display: block !important
+}
+
+#karriere {
+  cursor: pointer;
+  cursor: hand
+}
+
+#karriere h1 {
+  text-transform: uppercase;
+  font-weight: 700
+}
+
+#karriere a, #karriere a p, #karriere h1, #karriere p {
+  color: #FFF
+}
+
+#karriere:hover {
+  opacity: .8
+}
+
+#karriere:hover h1, #karriere:hover p {
+  color: #FFF
+}
+
+.item-title {
+  font-family: 'Conv_Brownfox - Geometria Medium', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  color: #385988;
+  font-size: 1.7em;
+  font-weight: 100;
+  overflow: hidden;
+  display: block;
+  height: 115px;
+  margin-bottom: 25px;
+  text-decoration: none;
+  word-wrap: break-word
+}
+
+a.item-title:hover {
+  color: #FF6C2F
+}
+
+.item-ingress {
+  overflow: hidden;
+  display: block;
+  height: 120px;
+  margin-bottom: 20px;
+  text-decoration: none
+}
+
+.item-documenttype, .item-lesmer {
+  font-family: 'Conv_Brownfox - Geometria Thin', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  padding-top: 10px;
+  color: #6c6c6c;
+  font-size: 1em;
+  font-weight: 800;
+  overflow: hidden;
+  display: inline-block;
+  text-align: right;
+  float: right
+}
+
+.item-lesmer:hover {
+  color: #FF6C2F
+}
+
+.item-category, .item-category p, .item-dato, .item-user {
+  font-family: 'Conv_Brownfox - Geometria Medium', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  color: #FF6C2F;
+  font-size: 18px
+}
+
+.item-dato span, .item-user span {
+  margin-right: 10px
+}
+
+.item-category {
+  display: table;
+  height: 75px;
+  overflow: hidden;
+  margin: 0
+}
+
+.item-category .menu-icon {
+  display: table-cell;
+  vertical-align: middle;
+  min-width: 35px
+}
+
+.item-category p {
+  padding-left: 5px;
+  display: table-cell;
+  word-wrap: break-word;
+  vertical-align: middle;
+  font-size: .8em
+}
+
+.menu-hendelser, .menu-news, .menu-stillinger {
+  list-style: none;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
+  background: #FFF;
+  border: 1px solid #EBE4DC;
+  padding: 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px
+}
+
+.menu-hendelser li, .menu-news li, .menu-stillinger li {
+  padding: 0;
+  margin: 0
+}
+
+.menu-hendelser li a, .menu-news li a, .menu-stillinger li a {
+  font-family: 'Conv_Brownfox - Geometria Thin', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  display: block;
+  padding: 10px 35px 10px 10px;
+  border-bottom: 1px solid #EBE4DC;
+  font-size: 1.3em;
+  color: #6E6E6E;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+
+.menu-hendelser li:last-child a, .menu-news li:last-child a, .menu-stillinger li:last-child a {
+  border-bottom: none
+}
+
+.menu-hendelser li a:hover, .menu-news li a:hover, .menu-stillinger li a:hover {
+  background-color: #EBE4DC;
+  color: #385988;
+  text-decoration: none
+}
+
+.menu-news li .item-dato, .menu-stillinger li .item-dato {
+  padding: 0 20px;
+  display: inline-block;
+  vertical-align: middle
+}
+
+.newsarchive-item {
+  display: block;
+  background: #FFF;
+  padding: 25px;
+  margin-bottom: 40px
+}
+
+.newsarchive-item img {
+  display: none
+}
+
+.newsarchive-item p {
+  font-size: 1.1em
+}
+
+.search-item {
+  position: relative;
+  display: block;
+  background: #FFF;
+  padding: 25px;
+  margin-bottom: 40px
+}
+
+.search-item img {
+  display: none
+}
+
+.search-item p {
+  font-size: 1.1em
+}
+
+.error404 {
+  margin: 35px 0;
+  padding: 15px 0;
+  background: #FFF;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px
+}
+
+.error404 h1 {
+  display: block;
+  text-align: center;
+  margin: 0 auto
+}
+
+.error404 a {
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+  color: #6c6c6c
+}
+
+.error404 img {
+  border: none;
+  padding: 0;
+  margin: 0 auto;
+  background: 0 0
+}
+
+.comingsoon {
+  margin: 75px 0;
+  padding: 15px 0;
+  background: #FFF;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px
+}
+
+.comingsoon h1 {
+  display: block;
+  text-align: center;
+  margin: 0 auto
+}
+
+.comingsoon a {
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+  color: #6c6c6c
+}
+
+.comingsoon img {
+  border: none;
+  padding: 0;
+  margin: 0 auto;
+  background: 0 0
+}
+
+.comingsoon .comingsoon-social {
+  display: block;
+  margin: 0 auto 50px;
+  text-align: center
+}
+
+.comingsoon .comingsoon-social a {
+  display: inline-block;
+  margin: 20px 10px;
+  text-align: center
+}
+
+.blog-section {
+  background-color: #fbf7f5;
+  border-bottom: none;
+  padding-bottom: 100px
+}
+
+.bloginnlegg {
+  display: block;
+  background: #FFF
+}
+
+.bloginnlegg img {
+  display: block;
+  width: 100%;
+  height: 150px
+}
+
+.bloginnlegg .inner-bloginnlegg {
+  display: block;
+  padding: 20px 30px
+}
+
+.ansatte-box, .bransje-box, .referanse-box {
+  display: block;
+  background: #FFF;
+  padding-top: 20px;
+  margin-bottom: 25px
+}
+
+.ansatte-box .inner-ansatte, .bransje-box .inner-bransje, .referanse-box .inner-referanse {
+  display: block;
+  padding: 10px 30px
+}
+
+.ansatte-box .inner-ansatte a, .bransje-box .inner-bransje a, .referanse-box .inner-referanse a {
+  display: block;
+  width: 100%;
+  text-align: center
+}
+
+.bransje-box img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  border: 0;
+  padding: 0
+}
+
+.referanse-box img {
+  display: block;
+  width: 95%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto
+}
+
+.bransje-box .item-title {
+  height: 50px;
+  margin-bottom: 7px
+}
+
+.bransje-box .item-ingress {
+  display: none
+}
+
+.ansatte-box img {
+  display: block;
+  width: 75%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto
+}
+
+.ansatte-box .item-title {
+  height: 90px;
+  text-align: center;
+  font-size: 1.4em;
+  margin-bottom: 7px
+}
+
+.ansatte-box .item-title span {
+  text-align: center;
+  font-size: .6em
+}
+
+.ansatte-box .item-ingress {
+  display: none
+}
+
+.referanse-box .item-title {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 0;
+  font-size: 1.2em
+}
+
+.referanse-box hr {
+  margin: 10px 0
+}
+
+.logo-referanse {
+  margin-bottom: 25px;
+  width: 100%;
+  height: auto
+}
+
+.crumbs {
+  margin: 15px 0
+}
+
+.crumbs .breadcrumb {
+  background: 0 0;
+  padding-left: 0;
+  padding-right: 0
+}
+
+.crumbs ol.breadcrumb li a {
+  font-weight: 100;
+  font-style: italic;
+  color: #385988
+}
+
+.crumbs ol.breadcrumb li a:hover {
+  color: #FF6C2F
+}
+
+.crumbs ol.breadcrumb > li + li:before {
+  content: "\00a0 "
+}
+
+.crumbs ol.breadcrumb li {
+  background-image: url(http://acando.no/ressurs/acando/images/caret_right_orange_9x10.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding: 0 10px
+}
+
+.crumbs ol.breadcrumb li:first-child {
+  background: 0 0;
+  padding-left: 0
+}
+
+.crumbs ol.breadcrumb li .activenode {
+  color: #6E6E6E
+}
+
+article {
+  margin-bottom: 75px
+}
+
+.article-h1, article h1 {
+  font-size: 3em;
+  margin: 50px 0
+}
+
+article h2 {
+  font-size: 2.3em;
+  color: #3c3c3c;
+  font-style: italic
+}
+
+article .lead {
+  margin-bottom: 40px
+}
+
+article img {
+  border: 1px solid #EBE4DC;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: #FFF
+}
+
+article .image-margin {
+  margin: 30px
+}
+
+article h1 img {
+  display: inline-block;
+  border: none;
+  padding: 0;
+  margin: 0
+}
+
+article a, article p a {
+  color: #FF6C2F;
+  text-decoration: none
+}
+
+article a:hover, article p a:hover {
+  color: #385988;
+  text-decoration: none
+}
+
+article ul {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
+  padding-left: 10px;
+  margin: 10px;
+  list-style-image: url(http://acando.no/ressurs/acando/images/caret_right_beige_9x10.png)
+}
+
+article ul li {
+  padding: 5px;
+  margin: 2px 0
+}
+
+article p {
+  margin: 0 0 25px
+}
+
+.contactRelated, .otherRelated {
+  margin-bottom: 50px;
+  position: relative
+}
+
+.contactRelated img {
+  position: absolute;
+  top: -10px;
+  right: 0;
+  width: 75px
+}
+
+.contactRelated hr, .otherRelated hr {
+  margin-top: 0
+}
+
+.contactRelated h4, .otherRelated h4 {
+  margin-bottom: 0
+}
+
+.otherRelatedSpace a {
+  display: block;
+  margin-bottom: 10px
+}
+
+.personalia-info p br {
+  content: " ";
+  background: red;
+  display: block;
+  margin: 10px 0
+}
+
+footer#footer {
+  background: #385988
+}
+
+footer#footer h4 {
+  color: #FFF
+}
+
+footer#footer .main-footer {
+  padding-top: 25px;
+  padding-bottom: 50px
+}
+
+footer#footer .under-footer {
+  width: 100%;
+  height: 75px;
+  background: #6481ad
+}
+
+footer#footer .under-footer p {
+  text-align: center;
+  color: #FFF;
+  font-size: .9em;
+  font-weight: 100;
+  padding-top: 25px
+}
+
+footer#footer address, footer#footer p {
+  color: #FFF
+}
+
+footer#footer a {
+  color: #FFF;
+  text-decoration: underline
+}
+
+footer#footer a:hover {
+  text-decoration: none
+}
+
+footer#footer ul {
+  list-style: none;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
+  padding: 0;
+  margin: 0
+}
+
+footer#footer .footer-menu li {
+  padding: 5px 0
+}
+
+footer#footer .footer-menu li a {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #FFF;
+  text-decoration: none
+}
+
+footer#footer .footer-menu li a:hover {
+  color: #FF6C2F
+}
+
+footer#footer .footer-menu.menu-centered li a, h4.menu-centered {
+  display: block;
+  text-align: center
+}
+
+.footer_social_media {
+  margin-top: 75px
+}
+
+.social_icon {
+  font-size: 0;
+  width: 65px;
+  height: 65px;
+  background-color: #6481ad;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 1px solid #6481ad;
+  -webkit-transition: background-color 500ms linear;
+  -moz-transition: background-color 500ms linear;
+  -o-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+  transition: background-color 500ms linear
+}
+
+.facebook_footer_link {
+  background-image: url(http://acando.no/ressurs/acando/images/fb.png)
+}
+
+.twitter_footer_link {
+  background-image: url(http://acando.no/ressurs/acando/images/tw.png)
+}
+
+.linkedin_footer_link {
+  background-image: url(http://acando.no/ressurs/acando/images/in.png)
+}
+
+.youtube_footer_link {
+  background-image: url(http://acando.no/ressurs/acando/images/yt.png)
+}
+
+.rss_footer_link {
+  background-image: url(http://acando.no/ressurs/acando/images/rss.png)
+}
+
+.social_icon:hover {
+  background-color: #385988
+}
+
+#acandonorge-details.collapse, #colrightmenu-details.collapse, #kontaktoss-details.collapse, #omacando-details.collapse {
+  display: block
+}
+
+.footer-menu-calendar li a {
+  display: table
+}
+
+.footer-menu-calendar li a .menu-icon {
+  display: table-cell;
+  vertical-align: middle
+}
+
+.footer-calendar-title {
+  display: table-cell;
+  padding-left: 10px;
+  vertical-align: middle
+}
+
+.footer-comingsoon {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0
+}
+
+@media only screen and (max-width: 1199px) {
+  .bloginnlegg .inner-bloginnlegg {
+    padding: 15px
+  }
+  .ansatte-box .inner-ansatte, .referanse-box .inner-referanse {
+    padding: 10px
+  }
+  .bloginnlegg img {
+    height: 125px
+  }
+  .item-title {
+    height: 100px;
+    font-size: 1.4em
+  }
+  .item-ingress {
+    height: 100px
+  }
+  .referanse-box .item-title {
+    height: 45px;
+    font-size: 1em
+  }
+  .ansatte-box .item-title {
+    height: 70px;
+    font-size: 1em
+  }
+  .item-category {
+    height: 60px
+  }
+  .item-category p {
+    font-size: .7em
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #TopNav {
+    position: relative !important;
+    margin-bottom: 0
+  }
+  .bloginnlegg img {
+    height: 100px
+  }
+  .item-title {
+    height: 100px;
+    font-size: 1.2em
+  }
+  .item-ingress {
+    height: 100px
+  }
+  .ansatte-box .item-title {
+    height: 75px
+  }
+  .referanse-box .item-title {
+    height: 60px
+  }
+  .item-category .menu-icon {
+    display: none
+  }
+  .item-category p {
+    padding-left: 0
+  }
+  .item-lesmer {
+    display: none
+  }
+  .search-item .item-lesmer {
+    display: inline-block
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .lead, .lead p, a, b, blockquote p, body, body textarea, h1, h2, h3, h4, h5, h5 a, h6, i, li, p, pre, span, u {
+    word-wrap: break-word
+  }
+  h1 {
+    font-size: 3em
+  }
+  .article-h1, article h1 {
+    font-size: 2.2em
+  }
+  article h2, h2 {
+    font-size: 2em
+  }
+  h3 {
+    font-size: 1.5em
+  }
+  h4, h5 {
+    font-size: 1.1em
+  }
+  .lead, .lead a, .lead p {
+    font-size: 1.2em
+  }
+  article img {
+    max-width: 100%
+  }
+  .image-margin {
+    margin: 0 !important;
+    float: none !important;
+    width: 100% !important
+  }
+  .slide-parallax {
+    height: 250px
+  }
+  .slide-static {
+    display: none
+  }
+  .navbar-brand {
+    float: none;
+    width: 100%;
+    display: block
+  }
+  .navbar-brand img {
+    display: block;
+    margin: 0 auto
+  }
+  #TopNav .navbar-right {
+    position: absolute;
+    right: 3%;
+    top: 70px
+  }
+  #TopNav .navbar-right li {
+    float: right
+  }
+  #TopNav .navbar-right li a {
+    font-size: 0
+  }
+  #TopNav .navbar-right ul.dropdown-menu li a {
+    font-size: 14px
+  }
+  #TopNav .navbar-right li a span.caret-down {
+    display: none
+  }
+  .navbar-nav .open .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: auto;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    background-clip: padding-box
+  }
+  #TopNav .navbar-right li .dropdown-menu li {
+    float: none
+  }
+  .dropdown-menu li a {
+    display: block;
+    text-align: center
+  }
+  #navbar-collapse-main {
+    margin-top: 0;
+    padding: 0;
+    background: #fbf7f5
+  }
+  #navbar-collapse-main .navbar-nav li {
+    display: block
+  }
+  .section-subinfo {
+    border-bottom: 1px solid #EBE4DC;
+    padding-bottom: 10px
+  }
+  .section-subinfo .quicklinks {
+    text-align: left;
+    position: relative;
+    right: auto;
+    top: auto;
+    display: block;
+    padding-top: 10px
+  }
+  article img {
+    display: block;
+    margin: 0 auto;
+    min-width: 100%;
+    height: auto
+  }
+  #sitat blockquote p {
+    font-size: 1.5em;
+    text-align: center
+  }
+  #sitat blockquote footer cite p {
+    margin-top: 0 !important;
+    font-size: 1.2em;
+    text-align: left
+  }
+  .menu-news li a {
+    overflow: auto;
+    text-overflow: clip;
+    white-space: normal
+  }
+  .bloginnlegg {
+    margin-bottom: 50px
+  }
+  .bloginnlegg img {
+    height: auto
+  }
+  .ansatte-box .item-title, .bransje-box .item-title, .item-title, .referanse-box .item-title {
+    height: auto;
+    font-size: 1.7em
+  }
+  .item-ingress {
+    height: auto
+  }
+  .item-lesmer {
+    display: block
+  }
+  .ansatte-box, .bransje-box, .referanse-box {
+    margin-bottom: 50px
+  }
+  .ansatte-box .inner-ansatte, .referanse-box .inner-referanse {
+    padding: 10px 30px
+  }
+  .item-category {
+    height: auto;
+    margin: 15px 0
+  }
+  .item-category .menu-icon {
+    display: table-cell
+  }
+  .item-category p {
+    display: table-cell;
+    padding-left: 10px;
+    font-size: 1.2em
+  }
+  .contactRelated, .otherRelated {
+    padding: 0 25px
+  }
+  .container .contactRelated, .container .otherRelated, .otherRelated .otherRelated {
+    padding: 0
+  }
+  .contactRelated img {
+    right: 25px
+  }
+  footer#footer .main-footer {
+    padding-left: 7%;
+    padding-right: 7%
+  }
+  #acandonorge-details.collapse, #colrightmenu-details.collapse, #kontaktoss-details.collapse, #omacando-details.collapse {
+    display: none
+  }
+  footer#footer .footer-menu.menu-centered li a, h4.menu-centered {
+    text-align: left
+  }
+  .caret-down-footer {
+    cursor: pointer;
+    width: 100% !important;
+    height: auto !important;
+    display: block;
+    background-position: 97% center
+  }
+  .caret-down-footer.caret-down-white-big {
+    width: 10px;
+    height: 9px;
+    border-bottom: 1px solid #6481ad;
+    background-image: url(http://acando.no/ressurs/acando/images/caret_down_white_20x18.png);
+    background-repeat: no-repeat
+  }
+  .footer_social_media_mobile {
+    margin-top: 30px
+  }
+}

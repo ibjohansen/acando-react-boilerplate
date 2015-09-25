@@ -1,59 +1,52 @@
 @mixin trans($what: all, $time: .3s) {
-    transition: $what $time cubic-bezier(0.77,0,.175,1);
+  transition: $what $time cubic-bezier(0.77, 0, .175, 1);
 }
 
 @mixin h1() {
-    font-size: 42px;
-    line-height: 50px;
-    letter-spacing: -1px;
-    font-weight: lighter;
+  color: #385988;
+  font-size: 5em;
+  font-weight: 800
 }
 
 @mixin h2() {
-    font-size: 36px;
-    line-height: 42px;
-    letter-spacing: 1px;
-    font-weight: lighter;
+  color: #6c6c6c;
+  font-size: 3em;
+  text-transform: uppercase
 }
 
 @mixin h3() {
-    font-size: 22px;
-    line-height: 28px;
-    font-weight: 200;
+  color: #FF6C2F;
+  font-size: 2em;
+  text-transform: none
 }
 
 @mixin h4() {
-    font-size: 22px;
-    line-height: 28px;
-    font-weight: normal;
+  color: #6c6c6c;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  padding: 7px 0
 }
 
 @mixin h5() {
-    font-size: 20px;
-    line-height: 25px;
-    font-weight: normal
+  color: #385988;
+  font-size: 1.5em;
+  font-style: italic
 }
 
 @mixin h6() {
-    font-size: 18px;
-    line-height: 22px;
-    font-weight: normal;
-    font-style: italic;
+  color: #FF6C2F
 }
 
-@mixin p(){
-    font-family: $font-1;
-    line-height: 1.25; /* Unitless for proper inheritance */
-    color: #333;
-    font-size: 15px;
-    height: 100%;
-    letter-spacing: .03em;
+@mixin p() {
+  font-family: $font-1;
+  color: #3c3c3c;
+  margin: 0 0 10.5px
 }
 
 @mixin center() {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 

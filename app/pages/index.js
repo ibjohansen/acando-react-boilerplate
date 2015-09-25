@@ -19,11 +19,15 @@ let Page = React.createClass({
     },
 
     componentWillMount(){
-        Actions.GetUserName();
+        this.getNewUserName();
     },
 
     onStoreUpdated(payload){
         this.setState({userName: payload.data})
+    },
+
+    getNewUserName(){
+        Actions.GetUserName();
     },
 
     renderContent(){
@@ -32,9 +36,16 @@ let Page = React.createClass({
         } else {
             return (
                 <div className="row">
-                    <span className="col-md-3">left</span>
-                    <span className="col-md-6">{this.state.userName}</span>
-                    <span className="col-md-3">right</span>
+                    <span className="col-md-3"></span>
+                    <span className="col-md-6">
+                        <br/><br/>
+                        <img src="images/acando_logo_blue.png" alt="acando.no" width="350"/>
+                        <br/><br/>
+                        <h3>Example GET from <a href="http://apigram.herokuapp.com/artifex/new" target="_blank">apigram.herokuapp.com/artifex/new</a></h3>
+                        <h2>{this.state.userName}</h2>
+                        <h3><button type="button" name="button" onClick={this.getNewUserName}>Reload username</button></h3>
+                    </span>
+                    <span className="col-md-3"></span>
                 </div>
             )
         }
