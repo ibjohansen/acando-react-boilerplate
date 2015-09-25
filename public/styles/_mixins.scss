@@ -1,0 +1,59 @@
+@mixin trans($what: all, $time: .3s) {
+    transition: $what $time cubic-bezier(0.77,0,.175,1);
+}
+
+@mixin h1() {
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: -1px;
+    font-weight: lighter;
+}
+
+@mixin h2() {
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+@mixin h3() {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 200;
+}
+
+@mixin h4() {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: normal;
+}
+
+@mixin h5() {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: normal
+}
+
+@mixin h6() {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+@mixin p(){
+    font-family: $font-1;
+    line-height: 1.25; /* Unitless for proper inheritance */
+    color: #333;
+    font-size: 15px;
+    height: 100%;
+    letter-spacing: .03em;
+}
+
+@mixin center() {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+

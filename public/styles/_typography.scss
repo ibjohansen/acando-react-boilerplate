@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+}
+
+body {
+  @include p();
+}
+
+h1, .as-h1,
+h2, .as-h2,
+h3, .as-h3,
+h4, .as-h4,
+h5, .as-h5,
+h6, .as-h6 {
+  font-family: $font-1;
+  color: #333;
+  margin: 0.6em 0 0.3em;
+
+  a {
+    text-decoration: none;
+    /* color: $pink-c; */
+  }
+}
+
+h1,
+.as-h1 {
+  @include h1();
+}
+
+h2,
+.as-h2 {
+  @include h2();
+}
+
+h3,
+.as-h3 {
+  @include h3();
+}
+
+h4,
+.as-h4 {
+  @include h4();
+}
+
+h5,
+.as-h5 {
+  @include h5();
+}
+
+h6,
+.as-h6 {
+  @include h6();
+}
+
+a {
+  color: $acando-blue;
+  border-bottom: 1px solid $acando-blue;
+  @include trans;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: $acando-blue;
+    border-color: transparent;
+  }
+
+  &.link-bold {
+    font-weight: normal;
+    color: $acando-orange;
+    border-bottom: 1px solid $acando-orange;
+    @include trans(border-bottom, .3s);
+    padding-bottom: 0;
+    font-size: 16px;
+
+    &:hover {
+      border-bottom: 1px solid transparent;
+    }
+  }
+}
+
+p {
+  &.preamble {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: bold;
+  }
+
+  margin: 0 0 1em;
+  font-size: 15px;
+  line-height: 1.4; /* Unitless for proper inheritance */
+}
+
+p + p {
+
+}
+
+i, em {
+  font-style: normal;
+  line-height: inherit;
+}
+
+span small {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: $darkgrey-c;
+  display: inline-block;
+  width: 100%;
+
+  a {
+    text-transform: capitalize;
+  }
+}
+
+h1 {
+  letter-spacing: .05em;
+}
+
+.display-text {
+  font-size: 34px;
+  line-height: 45px;
+  color: $acando-blue;
+  letter-spacing: .05em;
+  font-weight: lighter;
+  word-break: break-word;
+}
+

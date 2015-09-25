@@ -1,0 +1,39 @@
+{
+  "name": "acando_react_boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "build": "webpack -p --config webpack.production.config.js"
+  },
+  "keywords": [],
+  "author": "Acando.no",
+  "license": "Private",
+  "dependencies": {
+    "autoprefixer": "^6.0.2",
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.24",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.18.0",
+    "express": "^4.13.3",
+    "file-loader": "^0.8.4",
+    "fs": "0.0.2",
+    "http-proxy": "^1.11.2",
+    "json-loader": "^0.5.2",
+    "node-sass": "^3.3.3",
+    "path": "^0.12.7",
+    "postcss-loader": "^0.6.0",
+    "react": "^0.13.3",
+    "react-hot-loader": "^1.3.0",
+    "reflux": "^0.2.12",
+    "sass-loader": "^2.0.1",
+    "style-loader": "^0.12.3",
+    "stylus-loader": "^1.3.0",
+    "superagent": "^1.4.0",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.1",
+    "webpack-dev-server": "^1.11.0",
+    "yeticss": "^7.0.5"
+  }
+}
