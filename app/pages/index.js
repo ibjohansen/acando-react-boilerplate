@@ -41,9 +41,11 @@ let Page = React.createClass({
                         <br/><br/>
                         <img src="images/acando_logo_blue.png" alt="acando.no" width="350"/>
                         <br/><br/>
-                        <h3>Example GET from <a href="http://apigram.herokuapp.com/artifex/new" target="_blank">apigram.herokuapp.com/artifex/new</a></h3>
                         <h2>{this.state.userName}</h2>
-                        <h3><button type="button" name="button" onClick={this.getNewUserName}>Reload username</button></h3>
+                        <h3>Example GET from <a href="http://apigram.herokuapp.com/artifex/new" target="_blank">apigram.herokuapp.com/artifex/new</a></h3>
+                        <h5>The service generates a username based on a list of adjectives and nouns</h5>
+
+                        <h3><button className="btn paper paper-raise" type="button" name="button" onClick={this.getNewUserName}>Get a new name!</button></h3>
                     </span>
                     <span className="col-md-3"></span>
                 </div>
