@@ -5,7 +5,7 @@ The project is intended for internal use in Acando Norge and use, distribution o
 
 #To use:
 
-(This Project requires that ypu have [Node](https://nodejs.org/en/) installed on your computer)
+(This Project requires that you have [Node](https://nodejs.org/en/) installed on your computer)
 
 Open a terminal window and navigate to where you want the project to reside
 
