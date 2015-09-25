@@ -18,13 +18,17 @@ module.exports = {
     module: {
         loaders: [
             {
-                test: /(\.js$)|(\.jsx$)/,
-                loader: 'babel',
-                exclude: [nodeModulesPath]
-            },
-            {
                 test: /\.css$/,
                 loader: 'style!css'
+            },
+            {
+                test: /\.scss$/,
+                loader: 'style!css!sass'
+            },
+            {
+                test: /(\.js$)|(\.jsx$)/,
+                exclude: /node_modules/,
+                loaders: ['babel-loader']
             },
             {
                 test: /\.json$/,
@@ -32,10 +36,6 @@ module.exports = {
             },
             {
                 test: /\.(otf|eot|svg|ttf|woff)/,
-                loader: 'url-loader?limit=10000'
-            },
-            {
-                test: /\.(jpe?g|png|gif)/,
                 loader: 'url-loader?limit=10000'
             }
         ]
