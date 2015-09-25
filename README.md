@@ -5,7 +5,9 @@ The project is intended for internal use in Acando Norge and use, distribution o
 
 #To use:
 
-navigate to where you want the project to reside
+(This Project requires that ypu have [Node](https://nodejs.org/en/) installed on your computer)
+
+Open a terminal window and navigate to where you want the project to reside
 
 `$ git clone git@github.com:ibjohansen/acando-react-boilerplate.git`
 
