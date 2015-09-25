@@ -1,12 +1,13 @@
 {
   "name": "acando_react_boilerplate",
   "version": "0.0.1",
-  "description": "",
+  "description": "A React-Reflux boilerplate with webpack and hot-loader, avctions, stores, and an example get from a REST-service",
   "main": "index.js",
   "scripts": {
     "start": "node server",
     "build": "webpack -p --config webpack.production.config.js"
   },
+  "repository":"https://github.com/ibjohansen/acando-react-boilerplate",
   "keywords": [],
   "author": "Acando.no",
   "license": "Private",
