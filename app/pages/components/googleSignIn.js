@@ -19,7 +19,7 @@ export default React.createClass({
     componentDidMount() {
         if (gapi) {
             gapi.signin2.render(this.refs.g_sign_in.getDOMNode(), {
-                'scope': 'profile email',
+                scope: 'profile email',
                 'width': 200,
                 'height': 50,
                 'longtitle': true,
@@ -33,10 +33,10 @@ export default React.createClass({
     onSignIn(googleUser) {
         const profile = googleUser.getBasicProfile();
         const gapiId = profile.getId(); // READ!!! https://developers.google.com/identity/sign-in/web/backend-auth
+        const id_token = googleUser.getAuthResponse().id_token;
         const gapiName = profile.getName();
         const gapiImageUrl = profile.getImageUrl();
         const gapiEmail = profile.getEmail();
-
         this.setState(
             {
                 gapiSignedIn: true,
@@ -46,6 +46,23 @@ export default React.createClass({
                 gapiEmail: gapiEmail
             }
         )
+    },
+
+    onSignOut(){
+        let _this = this;
+        var auth2 = gapi.auth2.getAuthInstance();
+        auth2.signOut().then(function () {
+
+            _this.setState(
+                {
+                    gapiSignedIn: false,
+                    gapiId: '',
+                    gapiName: '',
+                    gapiImageUrl: '',
+                    gapiEmail: ''
+                }
+            )
+        });
     },
 
     renderProfileDetails(){
@@ -72,6 +89,12 @@ export default React.createClass({
                         <span className="p-head">Email:</span>
                         <span className="p-detail"><a
                             href={mailto}>{this.state.gapiEmail}</a></span>
+                      </span>
+
+                      <span className="p-row">
+                        <span className="p-head"></span>
+                        <span className="p-detail"><a
+                            href='#' onClick={this.onSignOut}>Sign out</a></span>
                       </span>
 
                     </span>
