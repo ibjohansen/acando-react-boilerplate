@@ -13,6 +13,8 @@ Open a terminal window and navigate to where you want the project to reside
 
 `$ npm install`
 
+If there is a folder: public/build, delete it as the development-server will use this instead of the files in app
+
 `$ npm start`
 
 navigate to [localhost:3000](http://localhost:3000) in your browser

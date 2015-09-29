@@ -33,7 +33,7 @@ let Page = React.createClass({
     renderContent(){
         if ('' === this.state.userName) {
             return (
-                <span></span>
+                <Loader/>
             )
         } else {
             return (
