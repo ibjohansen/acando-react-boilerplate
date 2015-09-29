@@ -1,0 +1,52 @@
+.google-sign-in-container {
+  display: flex;
+  justify-content: center;
+
+  & .google-sign-in {
+    display: flex;
+    flex-direction: column;
+
+  display: flex;
+  flex-direction: column;
+  }
+}
+
+.profile-card {
+  display: flex;
+  background-color: #FFF;
+  width: 500px;
+  height: 120px;
+  border: 1px solid #fff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.18);
+  animation-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+  align-items: center;
+
+  & img {
+    flex-grow: 0;
+    align-self: center;
+    margin: 5px;
+    flex-basis: 100px;
+    border-radius: 50%;
+  }
+
+  & span.p-col {
+    padding-left: 5px;
+
+    & span.p-row {
+      justify-content: flex-start;
+      display: flex;
+
+      & span.p-head {
+        color: #676767;
+        flex-basis: auto;
+        width: 50px;
+        padding-right: 5px;
+      }
+
+      & span.p-detail a {
+        text-decoration: none;
+        color: #3c3c3c;
+      }
+    }
+  }
+}

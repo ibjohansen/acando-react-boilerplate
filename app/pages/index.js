@@ -1,10 +1,11 @@
 'use strict';
 
 import React from 'react';
-import Loader from './components/loader';
-import Actions from '../actions/mainActions.js'
-import Store from '../stores/mainStore.js'
 import Reflux from 'reflux';
+import Store from '../stores/mainStore.js';
+import Actions from '../actions/mainActions.js';
+import Loader from './components/loader';
+import GoogleSignIn from './components/googleSignIn.js';
 
 let Page = React.createClass({
 
@@ -15,7 +16,9 @@ let Page = React.createClass({
     ],
 
     getInitialState(){
-        return {userName: ''};
+        return {
+            userName: ''
+        };
     },
 
     componentWillMount(){
@@ -62,6 +65,9 @@ let Page = React.createClass({
                         <img src="images/acando_logo_blue.png" alt="acando.no" width="350"/>
                         <br/><br/>
                         {this.renderContent()}
+
+                        <GoogleSignIn></GoogleSignIn>
+
                     </span>
                 <span className="col-md-3"></span>
             </div>

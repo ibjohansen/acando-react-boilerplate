@@ -7,7 +7,7 @@
     "start": "node server",
     "build": "webpack -p --config webpack.production.config.js"
   },
-  "repository":"https://github.com/ibjohansen/acando-react-boilerplate",
+  "repository": "https://github.com/ibjohansen/acando-react-boilerplate",
   "keywords": [],
   "author": "Acando.no",
   "license": "Private",
