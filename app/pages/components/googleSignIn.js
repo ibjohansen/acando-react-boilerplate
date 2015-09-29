@@ -1,5 +1,7 @@
 'use strict';
 
+//more info here: https://developers.google.com/identity/sign-in/web/
+
 import React from 'react';
 
 export default React.createClass({
