@@ -1,13 +1,16 @@
 .google-sign-in-container {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content:center;
 
-  & .google-sign-in {
+
+  & .google-sign-in-btn {
+    margin-bottom: 10px;
+  }
+
+  & .google-sign-in-details {
     display: flex;
     flex-direction: column;
-
-  display: flex;
-  flex-direction: column;
   }
 }
 

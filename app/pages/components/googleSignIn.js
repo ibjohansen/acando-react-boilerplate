@@ -111,8 +111,12 @@ export default React.createClass({
     render() {
         return (
             <div className="google-sign-in-container">
-                <div className="google-sign-in">
-                    <div ref="g_sign_in" data-onsuccess={this.onSignIn}/>
+
+                <div  className="google-sign-in-btn"
+                      ref="g_sign_in"
+                      data-onsuccess={this.onSignIn}/>
+
+                <div className="google-sign-in-details">
                     {this.renderProfileDetails()}
                 </div>
             </div>
